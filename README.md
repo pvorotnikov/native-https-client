@@ -21,5 +21,4 @@ import { NativeHttpsClient } from 'native-https-client'
   console.log(users);
 
 })();
-
 ```

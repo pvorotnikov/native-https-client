@@ -6,12 +6,30 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "npm run build"
   },
-  "author": "Petar Vorotnikov <mail@vorotnikov.net>",
+  "author": "Petar Vorotnikov",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvorotnikov/native-https-client"
+  },
+
+  "homepage": "https://github.com/pvorotnikov/native-https-client#readme",
+  "bugs": {
+    "url": "https://github.com/pvorotnikov/native-https-client/issues"
+  },
+  "keywords": [
+    "http",
+    "https",
+    "client",
+    "rest"
+  ],
   "devDependencies": {
     "@types/node": "^16.11.7",
     "typescript": "^4.4.4"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
