@@ -1,0 +1,17 @@
+{
+  "name": "native-http",
+  "version": "1.0.0",
+  "description": "Tiny HTTPS client with no external dependencies",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Petar Vorotnikov <mail@vorotnikov.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "typescript": "^4.4.4"
+  }
+}
