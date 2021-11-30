@@ -1,5 +1,5 @@
 {
-  "name": "native-http",
+  "name": "native-https-client",
   "version": "0.0.1",
   "description": "Tiny HTTPS client with no external dependencies",
   "type": "module",
@@ -14,7 +14,6 @@
     "type": "git",
     "url": "git+https://github.com/pvorotnikov/native-https-client"
   },
-
   "homepage": "https://github.com/pvorotnikov/native-https-client#readme",
   "bugs": {
     "url": "https://github.com/pvorotnikov/native-https-client/issues"
