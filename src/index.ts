@@ -28,6 +28,7 @@ export class NativeHttpsClient {
   async get(path: string, options: NativeHttpsClientOptions = {}) { return this.doRequest({ ...options, path, method: 'GET' }) }
   async post(path: string, data: any, options: NativeHttpsClientOptions = {}) { return this.doRequest({ ...options, path, method: 'POST' }, data) }
   async put(path: string, data: any, options: NativeHttpsClientOptions = {}) { return this.doRequest({ ...options, path, method: 'PUT' }, data) }
+  async patch(path: string, data: any, options: NativeHttpsClientOptions = {}) { return this.doRequest({ ...options, path, method: 'PATCH' }, data) }
   async delete(path: string, data: any, options: NativeHttpsClientOptions = {}) { return this.doRequest({ ...options, path, method: 'DELETE' }, data) }
 
   // do the actual request
