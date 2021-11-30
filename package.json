@@ -2,7 +2,6 @@
   "name": "native-https-client",
   "version": "0.0.1",
   "description": "Tiny HTTPS client with no external dependencies",
-  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
