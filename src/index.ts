@@ -1,6 +1,6 @@
 import https, { RequestOptions } from 'https';
 
-type NativeHttpsClientOptions = RequestOptions & {
+export type NativeHttpsClientOptions = RequestOptions & {
   throwOnErrors?: boolean
 }
 
@@ -48,8 +48,8 @@ export class NativeHttpsClient {
 
         // return response
         res.on('close', () => {
-
-          if (res.statusCode || 1000 >= 400 && configOptions.throwOnErrors) {
+          
+          if (configOptions.throwOnErrors && (res.statusCode || 1000) >= 400) {
             throw new Error(`code=${res.statusCode}, body=${response}`);
           }
 
